@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+button {
+    background-color: rgb(126, 126, 246);
+    color: white;
+    padding: 4px 10px;
+    font-weight: 700;
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: yellowgreen;
+    color: black;
+    border: 1px solid black;
+}
+header{
+    padding: 25px 5%;
+}
+nav{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+nav ul li{
+    list-style: none;
+    gap: 30px;
+    font-weight: 700;
+    
+}
+nav ul li img{
+    width: 200px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroleft{
+    width: 40%;
+    padding: 0 20px;
+}
+.heroleft h1{
+    font-size: 60px;
+}
+.heroleft p{
+    margin: 5% 0;
+    font-weight: 200;
+}
+.heroleft h1 span{
+    color: rgb(168, 168, 246);
+}
+.seebu button {
+    font-size: 20px;
+}
+.heroright{
+    display: flex;
+}
+.conta button{
+    font-size: 20px;
+}
